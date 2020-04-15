@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HW_35_new]">
+  <test thread-count="5" name="Prime Number Checker(failed)">
+    <classes>
+      <class name="core.PrimeNumberCheckerTest">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- core.PrimeNumberCheckerTest -->
+    </classes>
+  </test> <!-- Prime Number Checker(failed) -->
+</suite> <!-- Failed suite [HW_35_new] -->
