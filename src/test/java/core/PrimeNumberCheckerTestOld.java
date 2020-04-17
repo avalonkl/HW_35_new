@@ -8,7 +8,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class PrimeNumberCheckerTestOld {
 	
- // String csvFile = "./primes_10.csv";        // mvn site -Dtestcases="./primes_10.csv"
+//String csvFile = "./primes_10.csv";        // mvn site -Dtestcases="./primes_10.csv"
 String csvFile = System.getProperty("testcases"); 
 	
 	@DataProvider(name = "Prime Numbers")
